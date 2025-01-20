@@ -9,10 +9,9 @@ CORS(app)
 
 # Load machine learning model
 def load_model():
-    model = joblib.load('model/model.pkl')  # Load your ML model
+    model = joblib.load('model/model.pkl')  
     return model
 
-# OpenWeather API configuration
 API_KEY = "710b86a2f99df3be61bf8ce424b35544"  # Your OpenWeather API key
 CITY = "Dehradun"
 COUNTRY = "IN"
